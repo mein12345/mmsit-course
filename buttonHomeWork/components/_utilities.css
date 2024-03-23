@@ -1,0 +1,27 @@
+.rounded {
+    border-radius: 10px;
+}
+.btn-rounded {
+    border-radius: 20px;
+}
+.container {
+    margin-left: 20px;
+}
+.box {
+    color: var(--blue);
+  }
+.text-center{
+    text-align: center;
+}  
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.bg-blue{
+    background-color: var(--blue);
+}

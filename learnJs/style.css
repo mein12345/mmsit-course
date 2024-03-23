@@ -1,0 +1,18 @@
+.container{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: linear-gradient(to bottom, red,yellow);
+    margin: 0 auto;
+    width: 250px; 
+    height: 100px;
+    padding: 200px 100px;
+    border: 1px solid red;
+    /* box-shadow: -5px 5px 2px 2px gray, -10px 10px 4px 4px blue, -13px 13px 6px 6px yellow; */
+    transition-duration: 1s;
+    background-clip: text;
+    color: transparent;
+}
+body{ 
+    background-image: url(/images/Let\'s\ Go\ Home\,\ Ronald\ Kuang.jpeg) ;
+    background-position: center;
+    background-size: cover;
+}

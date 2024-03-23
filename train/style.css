@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+}
+.container{
+    box-shadow: 5px 5px 2px 2px;
+}
+.second{
+    background-color: gray;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}

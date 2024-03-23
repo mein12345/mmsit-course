@@ -1,0 +1,78 @@
+.btn,
+.box,
+.btn-secondary,
+.btn-outline,
+.btn-outline-secondary,
+.anchorTag,
+.anchorTagSecondary {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 15px;
+}
+.anchorTag,
+.anchorTagSecondary {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+.btn {
+  background-color: #22d1ee;
+  border: 1px solid #22d1ee;
+}
+.btn-secondary {
+  background-color: #fccde2;
+  border: 1px solid var(--pink);
+}
+.btn-outline {
+  background-color: inherit;
+  border: 1px solid var(--blue);
+}
+.btn-outline-secondary {
+  background-color: inherit;
+  border: 1px solid var(--pink);
+}
+.btn-rounded {
+    border-radius: 20px;
+  }
+  .btn-icon {
+    font-size: 20px;
+    margin: 2px;
+    color: white;
+    padding: 3px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .icon1 {
+    background-color: var(--blue);
+    border-radius: 10px;
+    border-radius: 10px;
+  background: linear-gradient(145deg, #24e0ff, #1fbcd6);
+  box-shadow:  10px 10px 20px #1db2ca,
+               -10px -10px 20px #27f0ff;
+  }
+  .icon2 {
+    background-color: var(--pink);
+    border-radius: 50%;
+    border-radius: 50%;
+  background: #fccde2;
+  box-shadow: inset 10px 10px 20px #d6aec0,
+              inset -10px -10px 20px #ffecff;
+  }
+  .icon3 {
+    border: 1px solid var(--blue);
+    color: var(--blue);
+    border-radius: 10px;
+  }
+  .icon4 {
+    border: 1px solid var(--pink);
+    color: var(--pink);
+    border-radius: 50%;
+  }
+  .icon5 {
+      border-radius: 50px;
+      background: #e0e0e0;
+      box-shadow:  20px 20px 60px #bababa,
+                   -20px -20px 60px #ffffff;
+  }

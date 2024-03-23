@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0 ;
+            padding: 0;
+            
+        }
+        body{
+            background-color: rgb(110, 87, 87);
+        }
+        .container{
+            width: 50px;
+            height: 10px;
+            background-image: linear-gradient(to bottom, green, red);
+            animation: spin 4s linear 0s infinite;
+        }
+        @keyframes spin {
+            0%{transform: rotate(0)}
+            50%{transform: rotate(180deg);
+                border-radius: 35%;
+                transform: translateY(100px)
+            }
+            100%{transform: rotate(360deg);
+            border-radius: 50%;
+            height: 50px;}
+        }
+        .hello{
+            text-align:center;
+            font-size: 5em;
+            color:transparent;
+            background-image: linear-gradient(to bottom, pink,yellow);
+            background-clip: text;
+            background-size: cover;
+        }
+        .textstroke{
+            -webkit-text-stroke: 2px green;
+            font-size: 80px;
+            text-align: center;
+            letter-spacing: 5px;
+            color: transparent;
+            background-image: linear-gradient(to right, rgb(193, 47, 71),rgb(48, 48, 166));
+            background-clip: text;
+        }
+        .parents{
+            display: flex;
+            width: 100%;
+            height: 100vh;
+            margin-top: 50px;
+            justify-content: center;
+        }
+        .A{
+            width: 100px;
+            height: 100px;
+            background-color: #ffffff;
+            margin: 10px;
+            border-radius: 10px;
+            transition: 1.5s;
+            cursor: pointer ;
+        }
+
+        .parents:hover > :not(:hover){
+            opacity: 0.4;
+            transform: scale(0.9);
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <section>
+        <h1 style="text-align: left; font-size: 32px; font-family:sans-serif;">Learn Javascript</h1>
+    </section>
+
+    <div></div><div class="container"></div></div>
+ <script src="./learning.js"></script>
+    <h1 class="hello">HELLO</h1>
+    <h2 class="textstroke">HELLOWORLD</h2>
+    <div class="parents">
+        <div class="A"></div>
+        <div class="A"></div>
+        <div class="A"></div>
+        <div class="A"></div>
+    </div>
+</body>
+</html>

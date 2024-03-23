@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+}
+
+h1{
+    letter-spacing: 5px;
+    line-height: 100px;
+    background-image: linear-gradient(to bottom left, rgb(100, 159, 214),rgb(67, 233, 136));
+    color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    -webkit-text-stroke: 3px;
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+    font-size: 5em;
+    background-size: cover;
+    background-position: center;
+    animation: width 2s linear 0s infinite;
+    transition: background-color 5s linear 0s;
+    -webkit-box-reflect:below 1px linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+}
+h1::selection{
+    color: yellow;
+}
+p{
+    background-image: conic-gradient(red,blue,yellow,green,white,orange,black);
+    width: 500px;
+    height: 100px;
+}
+img{
+    width: 400px;
+    fill: blue;
+}
+@keyframes width{
+    0% { transform: scale(0.5) rotate(360deg);  }
+    50% { color: red;transform: scale(0.8)}
+    100% { transform: scale(1)}
+}
+.loading{
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    top: 80%;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px dashed rgb(67, 233, 136);
+    border-bottom: none;
+    animation: rotate 2s linear infinite;
+}
+@keyframes rotate {
+    from{transform:translate(0) rotate(0); }
+    to{transform:translateX(100px) rotate(360deg)}
+}

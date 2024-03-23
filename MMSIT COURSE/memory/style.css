@@ -1,0 +1,5 @@
+h1::selection {
+    color:yellow;
+    font-style: italic;
+    border: 1px solid red;
+}

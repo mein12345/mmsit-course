@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning before and after</title>
+    <style>
+        div{
+            display: flex;
+            height: 100vh;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            font-size: 50px;
+            letter-spacing: 5px;
+            font-family: sans-serif;
+            -webkit-text-stroke: 2px;
+            position: relative;
+        }
+        h1::after{
+            position: absolute;
+            content: "";
+            height: 2px;
+            right: 0;
+            top: 100%;
+            width: 0;
+            background-color: red;
+        }
+        h1::after:hover{
+            transition: width 2s linear 0s;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Hello</h1>
+    </div>
+</body>
+</html>

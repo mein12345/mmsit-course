@@ -1,0 +1,39 @@
+.menu{
+    width: 300px;
+    border: 1px solid black;
+    list-style: inside none;
+    overflow: hidden;
+}
+.menu-items{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 15px;
+    border-bottom: 1px solid black;
+}
+.menu-items-a{
+    text-decoration: none;
+    color: inherit;
+}
+.menu-items:last-child{
+    border-bottom: none;
+}
+.menu .menu-items:hover{
+    background-color: var(--gray-hover);
+}
+.menu-h{
+    width: 100%;
+    border: 1px solid black;
+    overflow: hidden;
+    display: flex;
+}
+.menu-h .menu-items{
+ border-bottom: none;
+ width: 25%;
+}
+.menu-h .menu-items:hover{
+    background-color: var(--gray-hover);
+}
+.menu-h .active{
+    background-color: var(--gray-hover);
+}

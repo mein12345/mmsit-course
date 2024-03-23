@@ -1,0 +1,42 @@
+.table{
+    border-collapse: collapse;
+    width: 100%;
+    font-weight: bold;
+}
+.table tr{
+
+}
+.table .table-blue{
+    background-color: var(--blue);
+    color: white;
+}
+.table .table-pink{
+    background-color: var(--pink);
+    color: white;
+}
+.table td,
+.table th{
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+.table-border-blue td,
+.table-border-blue th{
+    border: 1px solid var(--blue);
+}
+.table-border-pink td,
+.table-border-pink th{
+    border: 1px solid var(--pink);
+}
+
+tfoot{
+    font-weight: bolder;
+}
+.table-hover tbody tr:hover{
+    background-color: gray;
+}
+.table-border-blue.table-hover tbody tr:hover{
+    background-color: rgb(181, 216, 245);
+}
+.table-border-pink.table-hover tbody tr:hover{
+    background-color: rgb(253, 230, 247);
+}
