@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS media query</title>
+    <style>
+        h1{
+            font-size: 100px;
+            font-family: sans-serif;
+        }
+        @media screen and (max-width: 920px){
+            h1{
+                font-size: 40px;
+                color: lightblue;
+            }
+        }
+        @media screen and (max-width: 480px){
+            h1{
+                font-size: 20px;
+                color: lightpink;
+            }
+        }
+        @media print{
+            h1{
+                color: green;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Min Ga Lar Par Byar</h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat odio quas quo doloribus quisquam explicabo aut totam dolore veritatis itaque, quis in nobis ipsa reprehenderit unde excepturi est vero obcaecati.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat odio quas quo doloribus quisquam explicabo aut totam dolore veritatis itaque, quis in nobis ipsa reprehenderit unde excepturi est vero obcaecati.
+    </p>
+</body>
+</html>

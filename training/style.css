@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+.container{
+    border: 1px solid black;
+    /* background-color: black; */
+    max-width: 90%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.image{
+    width: 400px; /* Make the image fill the container width */
+    height: 400px; /* Make the image fill the container height */
+    object-fit: cover;
+    clear: both;
+    
+}
+.container p{
+    font-size: 15px;
+    text-align: justify;
+    margin: 10px;
+    color: green;
+}
