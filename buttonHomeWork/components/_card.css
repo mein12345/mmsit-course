@@ -2,9 +2,64 @@
     border: 1px solid black;
     width: 350px;
     padding: 15px;
+    display: inline-block;
+    margin: 5px;
+    
     /* word-wrap: break-word; */
     /* writing-mode: vertical-rl; */
 }
+.card-body{
+    padding: 15px;
+}
 .card-title{
     font-size: 23px;
+    margin: 10px;
+    padding: 5px;
+    font-family: var(--heading-font)
+
+}
+
+.card-text{
+    color: rgb(110, 102, 102);
+    padding: 10px;
+}
+.card-rating{
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+.card-rating .star{
+    color: gold;
+    padding: 10px;
+    display: inline-block;
+}
+.card-rating .rate{
+    padding: 10px;
+    display: inline-block;
+}
+.card-image{
+    width: 100%;
+}
+.card-price{
+    font-family: var(--heading-font);
+}
+.card-price .price{
+    padding: 10px;
+}
+.card-price span{
+    font-size: 23px;
+}
+.card-btn{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: none;
+    transition-duration: 0.5s;
+}
+  
+.card-btn:hover{
+    transform: scale(1.02)
+}
+.image-container{
 }

@@ -3,6 +3,7 @@
     border : 1px solid black;
     width: 300px;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 .list-item{

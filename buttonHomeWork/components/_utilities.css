@@ -25,3 +25,12 @@
 .bg-blue{
     background-color: var(--blue);
 }
+.w-full{
+    width: 100%;
+}
+.p-0{
+    padding: 0 !important;
+}
+.p-15{
+    padding: 15px;
+}

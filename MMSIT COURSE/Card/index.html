@@ -1,16 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/buttonHomeWork/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/buttonHomeWork/style.css" />
     <title>Text Card</title>
-</head> 
-<body>
-    <h2 class="h2">Text Card</h2>
-    <div class="container  card">
-        <h3 class="card-title">Text card One</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi quos error iusto ut sunt, modi facere ipsum, doloremque cum doloribus suscipit tempore, voluptatibus eveniet est sint consequuntur recusandae accusamus nam?</p>
-    </div>
-</body>
+    <style>
+      body {
+        height: 300vh;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h2 class="h2">Text Card</h2>
+        <div class="container card">
+          <h3 class="card-title">Text card One</h3>
+          <p class="card-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi
+            quos error iusto ut sunt, modi facere ipsum, doloremque cum
+            doloribus suscipit tempore, voluptatibus eveniet est sint
+            consequuntur recusandae accusamus nam?
+          </p>
+        </div>
+        <div class="container text-center card">
+          <h3 class="card-title">Text card One</h3>
+          <p class="card-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi
+            quos error iusto ut sunt, modi facere ipsum, doloremque cum
+            doloribus suscipit tempore, voluptatibus eveniet est sint
+            consequuntur recusandae accusamus nam?
+          </p>
+        </div>
+        <div class="container text-right card">
+          <h3 class="card-title">Text card One</h3>
+          <p class="card-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi
+            quos error iusto ut sunt, modi facere ipsum, doloremque cum
+            doloribus suscipit tempore, voluptatibus eveniet est sint
+            consequuntur recusandae accusamus nam?
+          </p>
+        </div>
+      </section>
+      <section>
+        <h1 class="h2">Product Card</h1>
+        <div class="card">
+          <img
+            class="card-image"
+            src="https://www.apple.com/v/macbook-air/s/images/specs/13-inch/mba_13_hero__cgrv1gqx437m_large.jpg"
+            alt="apple"
+          />
+          <h3 class="card-title">Text Card one</h3>
+          <ul class="list">
+            <li class="list-item">8-core CPU with 4</li>
+            <li class="list-item">8GB unified memory</li>
+            <li class="list-item">256GB or 512GB SSD</li>
+          </ul>
+          <p class="card-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi eum
+            eveniet iusto nemo mollitia? Consequatur?
+          </p>
+          <div class="card-rating">
+              <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+              </div>
+              <p class="rate">(4.2/250)</p>
+            </div>
+            <div class="card-price">
+              <p class="price">
+                $<span>1599</span>
+              </p>
+            </div>
+            <button class="btn card-btn">Add to Cart</button>
+        </div>
+
+        <div class="card p-0">
+            <img
+              class="card-image"
+              src="/images/download.jpeg"
+              alt="apple"
+            />
+           <div class="card-body">
+            <h3 class="card-title">Text Card one</h3>
+            <ul class="list">
+              <li class="list-item">8-core CPU with 4</li>
+              <li class="list-item">8GB unified memory</li>
+              <li class="list-item">256GB or 512GB SSD</li>
+            </ul>
+            <p class="card-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi eum
+              eveniet iusto nemo mollitia? Consequatur?
+            </p>
+            <div class="card-rating">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p class="rate">(4.2/250)</p>
+              </div>
+              <div class="card-price">
+                <p class="price">
+                  $<span>1599</span>
+                </p>
+              </div>
+              <button class="btn card-btn">Add to Cart</button>
+           </div>
+          </div>
+      </section>
+      
+    </main>
+  </body>
 </html>

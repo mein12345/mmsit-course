@@ -1,5 +1,8 @@
 :root {
     --blue: #22d1ee;
     --pink: #fccde2;
+    --dark: rgb(12, 6, 6);
     --gray-hover : rgb(229,229,229);
+    --base-font : 'Quicksand' , sans-serif;
+    --heading-font : 'Roboto Slab', serif;
   }
